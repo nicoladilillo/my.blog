@@ -3,16 +3,17 @@
   <head lang="en-it">
     <meta charset="utf-8">
     <title>My Blog</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
   </head>
   <body>
 
-    <head>
-      <img src="{{site.baseurl}}assets/image/logo.svg"
-        style="width:200px;height:200px;">
-      {% include nav.html %}
-      <img src="{{site.baseurl}}assets/image/profile"
-        style="width:200px;height:200px;">
-    </head>
+    <header>
+      <div class="top">
+        <h2>NICOLA DILILLO</h2>
+        {% include nav.html %}
+      </div>
+      <img src="{{site.baseurl}}assets/image/profile" class="profile">
+    </header>
 
     {{content}}
 
