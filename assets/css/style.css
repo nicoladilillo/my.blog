@@ -41,3 +41,21 @@ h2 {
   width: 15%;
   border-radius: 50%;
 }
+
+footer {
+  padding: 30px 100px;
+  background-color: #c3c3c3;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+footer p {
+  text-align: center;
+}
