@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1>Posts:</h1>
+
+    {% for news in site.posts %}
+      <article>
+        <h3>{{news.title}}</h3>
+        <p>{{news.meta}} <a href="{{site.baseurl}}{{news.url}}">...continua..</a></p>
+      </article>
+
+    {% endfor %}
+
+</div>

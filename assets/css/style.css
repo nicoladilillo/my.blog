@@ -80,3 +80,31 @@ footer p {
   display: block;
   margin: auto;
 }
+
+.content .post {
+  margin: 0 auto;
+  width: 21%;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 35%;
+}
+
+.post h1 {
+  margin-left: -90%;
+}
+
+.post article {
+  width: 40%;
+  padding: 0px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.post h3 {
+  text-align: center;
+}
+
+.post p {
+  text-align: center;
+}
