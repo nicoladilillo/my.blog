@@ -1,3 +1,7 @@
+body {
+  background-color: pink;
+}
+
 header {
   padding: 20px;
   background-color: rgba(0, 93, 148, 0.91);
@@ -61,9 +65,10 @@ footer p {
 }
 
 .content {
-  background-color: #f3cdec;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  background-color: white;
+  margin:0 auto;
+  width: 85%;
+  padding: 30px 0px 50px 0px;
 }
 
 .photo {
@@ -81,16 +86,8 @@ footer p {
   margin: auto;
 }
 
-.content .post {
-  margin: 0 auto;
-  width: 21%;
-  background-color: white;
-  border-radius: 4px;
-  padding: 10px 35%;
-}
-
-.post h1 {
-  margin-left: -90%;
+.post {
+  padding: 10%;
 }
 
 .post article {
@@ -107,4 +104,16 @@ footer p {
 
 .post p {
   text-align: center;
+}
+
+.contact {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.contact p {
+  padding: 10px 0px 20px 0px;
+  display: inline-block;
+  margin-left: 20%;
+  border-bottom: 1px solid grey;
 }
